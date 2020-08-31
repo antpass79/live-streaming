@@ -18,7 +18,7 @@ All projects are listed below:
 
 The below schema shows the communication among the actors.
 
-![Live Streaming Class Diagram](assets/LiveStreamingClassDiagram.jpg)
+![Live Streaming Class Diagram](Assets/LiveStreamingClassDiagram.jpg)
 
 ## Run the System
 
