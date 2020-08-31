@@ -1,0 +1,14 @@
+﻿@page "/videostreamingconsumer"
+@inherits VideoStreamingConsumerDataModel
+
+<h3>Video Streaming Consumer</h3>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <video width="480" height="320" controls="controls" autoplay="autoplay" crossorigin="">
+                <source src="https://localhost:44363/videostreaming" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>

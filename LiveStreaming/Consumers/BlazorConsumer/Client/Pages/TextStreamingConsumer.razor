@@ -1,0 +1,26 @@
+﻿@page "/textstreamingconsumer"
+@inherits TextStreamingConsumerDataModel
+
+<h3>Text Streaming Consumer</h3>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Message</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var message in Messages)
+                    {
+                        <tr id="messages">
+                            <td>@message</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
