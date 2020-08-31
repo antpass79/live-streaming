@@ -1,4 +1,4 @@
-# streaming
+# Live Streaming
 Streaming with Asp Net Core and SignalR
 
 ## Repository Actors
