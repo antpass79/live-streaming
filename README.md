@@ -22,7 +22,13 @@ The below schema shows the communication among the actors.
 
 ## Run the System
 
-In order to play with the streaming, it's necessary to run the solution. For the moment the consumer doesn't work, so you need third-party component to listen for live streaming.
+In order to play with the streaming, it's necessary to run the following projects:
+
+- StreamingEndpoint
+- BlazorProducer.Server
+- BlazorConsumer.Server
+
+For the moment the consumer doesn't work, so you need third-party component to listen for live streaming.
 
 ### Text Streaming
 
